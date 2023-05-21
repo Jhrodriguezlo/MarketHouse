@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para la cabecera */
+  
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container-logo img {
+    height: 80px;
+  }
+  
+  .search-bar input {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background-color: #f9a825;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilos para los botones de categorías */
+  
+  .button-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .button-section button {
+    background-color: #f9a825;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s;
+  }
+  
+  .button-section button:hover {
+    background-color: #d68915;
+  }
+  
+  /* Estilos para el slider de productos */
+
+  .slider {
+    margin: 30px 0;
+  }
+  
+  .slider ul {
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .slider li {
+    margin-right: 20px;
+  }
+  
+  .slider img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los productos más vendidos */
+  
+  .contenedor {
+    display: flex;
+    margin: 50px 0;
+  }
+  
+  .contenedor img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contenedor h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+  
+  .contenedor p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el pie de página */
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .description {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  
+  .description h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .description p {
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+
+  body {
+    background-color: #F8F8F8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+    border-bottom: 1px solid #0077cc;
+  }
+  
